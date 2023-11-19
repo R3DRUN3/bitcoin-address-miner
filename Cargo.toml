@@ -5,6 +5,7 @@ edition = "2021"
 authors = ["Simone Ragonesi <simone.ragonesi@protonmail.com>"]
 description = "A utility for generating and mining Bitcoin addresses in Rust."
 license = "MIT"
+repository = "https://github.com/r3drun3/bitcoin-address-miner"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
