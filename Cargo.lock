@@ -65,6 +65,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9425c3bf7089c983facbae04de54513cce73b41c7f9ff8c845b54e7bc64ebbfb"
 
 [[package]]
+name = "bitcoin_address_miner"
+version = "0.1.1"
+dependencies = [
+ "bitcoin",
+ "hex",
+ "tokio",
+]
+
+[[package]]
 name = "bitcoin_hashes"
 version = "0.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -117,15 +126,6 @@ name = "gimli"
 version = "0.28.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6fb8d784f27acf97159b40fc4db5ecd8aa23b9ad5ef69cdd136d3bc80665f0c0"
-
-[[package]]
-name = "guessing_game"
-version = "0.1.0"
-dependencies = [
- "bitcoin",
- "hex",
- "tokio",
-]
 
 [[package]]
 name = "hermit-abi"
