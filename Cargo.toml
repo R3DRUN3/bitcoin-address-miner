@@ -1,7 +1,10 @@
 [package]
-name = "guessing_game"
+name = "bitcoin_address_miner"
 version = "0.1.0"
 edition = "2021"
+authors = ["Simone Ragonesi <simone.ragonesi@protonmail.com>"]
+description = "A utility for generating and mining Bitcoin addresses in Rust."
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
