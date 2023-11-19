@@ -1,4 +1,6 @@
 # Bitcoin Address Miner
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+<br />
 Mine Bitcoin Addresses ⛏️🅰️🅱️🅾️  
 <img src="images/btc-address.png" width="100" height="100">
 
