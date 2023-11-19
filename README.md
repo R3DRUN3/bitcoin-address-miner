@@ -63,4 +63,4 @@ Elapsed Time: 15.50 minutes
 
 ## License
 
-This utility is open-source and released under the [MIT License]()
+This utility is open-source and released under the [MIT License](https://github.com/R3DRUN3/bitcoin-address-miner/blob/main/LICENSE)
