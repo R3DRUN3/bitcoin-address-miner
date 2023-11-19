@@ -1,5 +1,5 @@
 # Bitcoin Address Miner
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![Crates.io](https://img.shields.io/crates/v/bitcoin_address_miner.svg)](https://crates.io/crates/bitcoin_address_miner)  
 <br />
 Mine Bitcoin Addresses ⛏️🅰️🅱️🅾️  
 <img src="images/btc-address.png" width="100" height="100">
