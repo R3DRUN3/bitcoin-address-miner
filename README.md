@@ -29,17 +29,17 @@ The Bitcoin Address Miner is designed for individuals interested in exploring Bi
 ## How to Use 
 1. Clone the repository:
 
-```bash
+```console
 git clone https://github.com/r3drun3/bitcoin-address-miner
 ``` 
 2. Navigate to the project directory:
 
-```bash
+```console
 cd bitcoin-address-miner
 ``` 
 3. Build and run the program:
 
-```bash
+```console
 cargo build --release
 cargo run
 ``` 
@@ -48,7 +48,7 @@ cargo run
    Once a matching address is found, the program will display the address, private key, public key, and the elapsed time.  
 
 Example:  
-```bash
+```console
 [BITCOIN KEY/ADDRESS MINING] 
  Enter the starting letters for the address: 
 JoKe
