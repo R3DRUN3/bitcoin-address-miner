@@ -6,7 +6,7 @@ Mine Bitcoin Addresses ⛏️🅰️🅱️🅾️
 
 ## Overview
 
-The Bitcoin Address Miner is a utility written in `Rust` that generates random Bitcoin addresses and searches for addresses that start with a user-specified sequence of characters.  
+The Bitcoin Address Miner is a utility written in `Rust` that generates random [BIP-32](https://en.bitcoin.it/wiki/BIP_0032) Bitcoin addresses and searches for addresses that start with a user-specified sequence of characters.  
 It utilizes multiple asynchronous threads to mine addresses concurrently.
 
 ## Scope
