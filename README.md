@@ -6,8 +6,18 @@ Mine Bitcoin Addresses ⛏️🅰️🅱️🅾️
 
 ## Overview
 
-The Bitcoin Address Miner is a utility written in `Rust` that generates random [BIP-32](https://en.bitcoin.it/wiki/BIP_0032) Bitcoin addresses and searches for addresses that start with a user-specified sequence of characters.  
-It utilizes multiple asynchronous threads to mine addresses concurrently.
+The Bitcoin Address Miner is a utility written in `Rust` that generates random [BIP-32](https://en.bitcoin.it/wiki/BIP_0032), *Base58 P2PKH* Bitcoin addresses and searches for addresses that start with a user-specified sequence of characters.  
+It utilizes multiple asynchronous threads to mine addresses concurrently.  
+- *Base58 P2PKH* refers to a specific encoding format used in Bitcoin addresses:  
+1. **Base58** : This is a binary-to-text encoding scheme that is similar to Base64 but avoids using  
+   easily confused characters  (like 0, O, I, and l) to make strings more legible.  
+   Base58 is commonly used in Bitcoin addresses to represent data in a human-readable format.  
+2. **P2PKH** : This stands for "Pay to Public Key Hash." It is a standard transaction script in Bitcoin that specifies how funds can be spent.  
+   In a P2PKH transaction, the recipient's address is derived from the hash of their public key.  
+
+So, when you combine Base58 encoding with a P2PKH address, you get a format that looks like a string of characters, such as `1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa`.  
+This is the well-known address associated with the first-ever Bitcoin transaction.
+
 
 ## Scope
 The Bitcoin Address Miner is designed for individuals interested in exploring Bitcoin address generation and conducting experiments related to address matching.   Potential use cases include:
