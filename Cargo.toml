@@ -1,6 +1,6 @@
 [package]
 name = "bitcoin_address_miner"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Simone Ragonesi <simone.ragonesi@protonmail.com>"]
 description = "A utility for generating and mining Bitcoin addresses in Rust."
