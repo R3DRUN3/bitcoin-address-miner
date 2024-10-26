@@ -53,7 +53,7 @@ cd bitcoin-address-miner
 
 ```console
 cargo build --release
-cargo run
+cargo run --release
 ``` 
 4. Enter the starting letters for the address when prompted. 
 5. The program will run multiple threads to mine addresses concurrently.  
